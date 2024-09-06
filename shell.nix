@@ -8,4 +8,5 @@ pkgs.mkShellNoCC {
         cowsay
         lolcat
     ];
+    GREETING = "Hello, Nix!";
 }
